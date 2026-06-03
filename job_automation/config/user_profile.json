@@ -1,0 +1,96 @@
+{
+  "_comment": "User Profile Template for Job Automation System",
+  "personal_info": {
+    "full_name": "",
+    "email": "",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip_code": "",
+      "country": ""
+    },
+    "linkedin_url": "",
+    "portfolio_url": "",
+    "github_url": ""
+  },
+  "professional_info": {
+    "current_title": "",
+    "years_of_experience": 0,
+    "current_company": "",
+    "industry": "",
+    "summary": ""
+  },
+  "skills": {
+    "technical": [],
+    "soft_skills": [],
+    "languages": [],
+    "certifications": []
+  },
+  "experience": [
+    {
+      "title": "",
+      "company": "",
+      "location": "",
+      "start_date": "",
+      "end_date": "",
+      "current": false,
+      "description": "",
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "",
+      "field_of_study": "",
+      "institution": "",
+      "location": "",
+      "graduation_date": "",
+      "gpa": ""
+    }
+  ],
+  "job_preferences": {
+    "desired_titles": [],
+    "preferred_locations": [],
+    "remote_preference": "hybrid",
+    "salary_expectation": {
+      "min": 0,
+      "max": 0,
+      "currency": "USD"
+    },
+    "employment_types": ["full-time"],
+    "industries": [],
+    "company_size": [],
+    "willing_to_relocate": false
+  },
+  "resume": {
+    "file_path": "",
+    "file_name": "",
+    "last_updated": ""
+  },
+  "cover_letter": {
+    "template": "",
+    "customization_notes": ""
+  },
+  "application_settings": {
+    "auto_apply": false,
+    "daily_application_limit": 10,
+    "preferred_job_boards": ["linkedin", "indeed", "glassdoor"],
+    "excluded_companies": [],
+    "keywords_to_avoid": [],
+    "required_keywords": []
+  },
+  "notifications": {
+    "email_notifications": true,
+    "sms_notifications": false,
+    "notification_email": "",
+    "notify_on": {
+      "application_submitted": true,
+      "application_viewed": true,
+      "interview_invitation": true,
+      "rejection": true,
+      "daily_summary": true
+    }
+  }
+}

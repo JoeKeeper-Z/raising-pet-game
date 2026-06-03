@@ -1,0 +1,35 @@
+{
+  "personal_info": {
+    "name": "",
+    "phone": "",
+    "email": "",
+    "resume_path": ""
+  },
+  "job_preferences": {
+    "keywords": ["前端开发", "React", "Vue"],
+    "locations": ["北京", "上海"],
+    "min_salary": 25000,
+    "max_salary": 40000,
+    "work_years": 5,
+    "company_size": ["100-499人", "500-999人"],
+    "industries": ["互联网"]
+  },
+  "match_thresholds": {
+    "auto_apply": 80,
+    "confirm": 50
+  },
+  "rate_limits": {
+    "boss": {
+      "per_hour": 7,
+      "min_interval": 8
+    },
+    "zhaopin": {
+      "per_hour": 14,
+      "min_interval": 4
+    }
+  },
+  "notifications": {
+    "feishu_webhook": "",
+    "dingtalk_webhook": ""
+  }
+}

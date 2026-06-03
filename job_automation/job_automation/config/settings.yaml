@@ -1,0 +1,31 @@
+# 浏览器设置
+browser:
+  headless: true
+  slow_mo: 100
+  viewport:
+    width: 1920
+    height: 1080
+
+# AI设置
+ai:
+  provider: "openai"
+  model: "gpt-4"
+  max_tokens: 1000
+  temperature: 0.3
+
+# 数据库
+database:
+  path: "data/jobs.db"
+
+# 日志
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+  max_size: "10MB"
+  backup_count: 5
+
+# 反爬虫设置
+anti_detection:
+  random_delay_min: 2
+  random_delay_max: 5
+  mouse_movement: true
