@@ -1,96 +1,168 @@
 {
-  "_comment": "User Profile Template for Job Automation System",
+  "_comment": "AI辅助开发求职者 - 深圳",
   "personal_info": {
-    "full_name": "",
-    "email": "",
-    "phone": "",
-    "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip_code": "",
-      "country": ""
-    },
-    "linkedin_url": "",
-    "portfolio_url": "",
-    "github_url": ""
+    "full_name": "周锦鹏",
+    "email": "396339801@qq.com",
+    "phone": "15875074182",
+    "city": "深圳",
+    "education": "本科（计算机相关）",
+    "work_status": "转行求职，可立即入职"
   },
   "professional_info": {
     "current_title": "",
     "years_of_experience": 0,
-    "current_company": "",
-    "industry": "",
-    "summary": ""
+    "summary": "计算机本科背景，善用AI工具（Claude、Cursor）进行开发。独立完成2个实战项目：网页养成小游戏、自动化求职工具。具备快速学习能力和解决实际问题的能力。"
   },
   "skills": {
-    "technical": [],
-    "soft_skills": [],
-    "languages": [],
+    "technical": [
+      "AI辅助开发",
+      "Python",
+      "JavaScript",
+      "HTML/CSS",
+      "Playwright自动化",
+      "SQLite",
+      "Git",
+      "Prompt Engineering",
+      "API集成",
+      "Web开发"
+    ],
+    "soft_skills": [
+      "快速学习",
+      "问题解决",
+      "AI工具运用",
+      "独立开发"
+    ],
+    "languages": ["中文（母语）", "英文（文档阅读）"],
     "certifications": []
   },
-  "experience": [
+  "projects": [
     {
-      "title": "",
-      "company": "",
-      "location": "",
-      "start_date": "",
-      "end_date": "",
-      "current": false,
-      "description": "",
-      "achievements": []
-    }
-  ],
-  "education": [
+      "name": "网页养成小游戏",
+      "description": "独立开发的网页养成类小游戏，具备完整游戏循环和交互功能",
+      "technologies": ["HTML", "CSS", "JavaScript", "游戏设计"],
+      "url": "",
+      "status": "可演示，持续优化中"
+    },
     {
-      "degree": "",
-      "field_of_study": "",
-      "institution": "",
-      "location": "",
-      "graduation_date": "",
-      "gpa": ""
+      "name": "自动化求职系统",
+      "description": "基于Python+Playwright的自动化求职工具，支持Boss直聘和智联招聘自动投递",
+      "technologies": ["Python", "Playwright", "SQLite", "AI匹配"],
+      "url": "",
+      "status": "开发中，计划开源",
+      "open_source": true
     }
   ],
   "job_preferences": {
-    "desired_titles": [],
-    "preferred_locations": [],
-    "remote_preference": "hybrid",
+    "desired_titles": [
+      "初级前端开发工程师",
+      "初级Python开发工程师",
+      "AI应用开发工程师",
+      "游戏客户端开发（初级）",
+      "工具开发工程师",
+      "自动化测试工程师"
+    ],
+    "preferred_locations": ["深圳"],
+    "remote_preference": "onsite",
     "salary_expectation": {
-      "min": 0,
-      "max": 0,
-      "currency": "USD"
+      "min": 7000,
+      "max": 10000,
+      "currency": "CNY"
     },
-    "employment_types": ["full-time"],
-    "industries": [],
-    "company_size": [],
-    "willing_to_relocate": false
-  },
-  "resume": {
-    "file_path": "",
-    "file_name": "",
-    "last_updated": ""
-  },
-  "cover_letter": {
-    "template": "",
-    "customization_notes": ""
+    "employment_types": ["全职"],
+    "industries": [
+      "互联网",
+      "游戏",
+      "AI/人工智能",
+      "SaaS/企业服务",
+      "教育科技"
+    ],
+    "company_size": [
+      "20-99人（初创公司）",
+      "100-499人（成长公司）",
+      "500-999人"
+    ]
   },
   "application_settings": {
     "auto_apply": false,
-    "daily_application_limit": 10,
-    "preferred_job_boards": ["linkedin", "indeed", "glassdoor"],
-    "excluded_companies": [],
-    "keywords_to_avoid": [],
-    "required_keywords": []
+    "daily_application_limit": 15,
+    "preferred_job_boards": ["boss", "zhaopin"],
+    "excluded_keywords": [
+      "3年以上经验",
+      "5年以上经验",
+      "资深",
+      "专家",
+      "架构师",
+      "负责人",
+      "管理岗"
+    ],
+    "required_keywords": [
+      "初级",
+      "助理",
+      "实习生",
+      "应届生",
+      "校招",
+      "社招",
+      "转行",
+      "培养"
+    ],
+ "target_keywords": [
+      "前端",
+      "Python",
+      "JavaScript",
+      "游戏",
+      "AI",
+      "工具",
+      "自动化",
+      "脚本",
+      "初级开发",
+      "助理工程师"
+    ],
+    "excluded_industries": [
+      "外包",
+      "劳务派遣"
+    ]
+  },
+  "match_thresholds": {
+    "auto_apply": 85,
+    "confirm": 60
+  },
+  "resume": {
+    "file_path": "",
+    "highlights": [
+      "善用AI工具提升开发效率",
+      "独立完成2个实战项目",
+      "具备全栈开发基础能力",
+      "GitHub开源项目展示",
+      "快速学习能力"
+    ]
   },
   "notifications": {
-    "email_notifications": true,
-    "sms_notifications": false,
-    "notification_email": "",
+    "feishu_webhook": "",
+    "dingtalk_webhook": "",
     "notify_on": {
-      "application_submitted": true,
-      "application_viewed": true,
-      "interview_invitation": true,
-      "rejection": true,
-      "daily_summary": true
+      "high_match_job": true,
+      "daily_summary": true,
+      "application_failed": true
     }
+  },
+  "strategy_notes": {
+    "优势": [
+      "计算机本科背景（满足基本要求）",
+      "有2个可演示的实战项目",
+      "善用AI工具是加分项",
+      "薪资要求合理（7-10k在深圳对初级岗合适）"
+    ],
+    "注意事项": [
+      "避免投递要求3年以上经验的岗位",
+      "优先选择接受转行的公司",
+      "小游戏项目要完善后放GitHub",
+      "投递时附项目链接"
+    ],
+    "面试准备": [
+      "准备项目演示（小游戏+自动化工具）",
+      "说明如何用AI辅助开发",
+      "强调学习能力和解决问题能力",
+      "对技术债务和bug有诚实态度"
+    ]
   }
 }
